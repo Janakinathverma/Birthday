@@ -77,3 +77,26 @@ p {
     padding-left: 50px;
     
 }
+@media (max-width: 768px) {
+  .paper {
+    padding: 15px;
+    transform: rotateZ(0deg);
+  }
+
+  .paper.heart {
+    width: 150px;
+    height: 150px;
+  }
+
+  .paper.image p {
+    font-size: 20px;
+  }
+
+  img, .image2 {
+    max-height: 120px;
+  }
+
+  p {
+    font-size: 28px;
+  }
+}
