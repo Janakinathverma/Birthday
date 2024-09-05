@@ -15,16 +15,20 @@ body {
 }
 
 .paper {
-  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-image:url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
   background-size:400px;
   background-position: center center;
   padding: 20px 100px;
-  min-width: 300px;
+  min-width: 200px;
   min-height: 100px;
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
   touch-action: none;
   position: absolute;
+  -webkit-transform: rotateZ(-5deg);
+  -moz-transform: rotateZ(-5deg);
+  -ms-transform: rotateZ(-5deg);
+  -o-transform: rotateZ(-5deg);
 }
 
 .paper.heart {
@@ -66,7 +70,7 @@ p {
   font-family: 'Zeyada';
   font-size: 50px;
   color: rgb(0,0,100);
-  opacity: 0.9;
+  opacity: 1.7;
   user-select: none;
   filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
