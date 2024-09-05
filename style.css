@@ -23,7 +23,7 @@ body {
   min-height: 100px;
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
-  
+  touch-action: none;
   position: absolute;
 }
 
